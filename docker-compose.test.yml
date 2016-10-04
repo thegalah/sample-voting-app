@@ -1,7 +1,0 @@
-version: "2"
-services:
-    vote-test:
-        depends_on:
-            - vote
-        command: ["echo","test.sh"]
-        image: postgres:9.4
