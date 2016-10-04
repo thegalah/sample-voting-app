@@ -1,2 +1,2 @@
 sut:
-	command: ls
+    command: ls
