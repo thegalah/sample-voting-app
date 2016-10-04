@@ -2,3 +2,4 @@ version: "2"
 services:
     vote-test:
         command: ls
+        image: postgres:9.4
