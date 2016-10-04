@@ -15,9 +15,13 @@ services:
 
   worker:
     build: ./worker
+    ports:
+      - "2002"
 
   db:
     image: postgres:9.4
+    ports:
+      - "2001"
 
   result:
     build: ./result
