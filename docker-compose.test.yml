@@ -3,5 +3,5 @@ services:
     vote-test:
         depends_on:
             - vote
-        command: test
+        command: ls
         image: postgres:9.4
