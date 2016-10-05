@@ -17,6 +17,7 @@ services:
     build: ./worker
     links:
       - db
+      - redis
 
   db:
     image: postgres:9.4
