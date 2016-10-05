@@ -18,6 +18,8 @@ services:
     links:
       - db
       - redis
+      - vote
+      - result
 
   db:
     image: postgres:9.4
